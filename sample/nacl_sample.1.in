@@ -1,0 +1,72 @@
+#
+#	Amber prmtop file
+#
+prmtop			leap/nacl.prmtop
+#
+#	Amber restart file
+#
+inpcrd			leap/nacl.inpcrd
+#
+#	File for system size
+#
+system_size		input/system.size
+#
+#	File for spherical grid points
+#
+system_size		input/system.size
+#
+#	File for spherical grid points
+#
+spherical_grid_points_file	input/spherical_points.200.out
+#
+#  Na+ -> atom index = 1, Cl- ->  atom index = 2
+#
+target_atom_index		1
+#
+# Radius rn  (integer)
+#
+rn			15
+#
+# Rdical spacing (double )
+#
+delta_d			0.2
+#
+#
+# Local ensemble radius (double )
+#
+rc			2.5
+#
+# Gaussian weighting parameter (double )
+#
+alpha			5.0
+#
+#  prefix of output files:
+#             dip_vector_prefix: dipole
+#             frc_vector_prefix: force
+#             bck_vector_prefix: backward
+#             fwd_vector_prefix: forward
+#
+dip_vector_prefix	output/dip_vector
+frc_vector_prefix	output/frc_vector
+bck_vector_prefix	output/bck_vector
+fwd_vector_prefix	output/fwd_vector
+#
+# prefix of output files for charge distribution 
+#
+charge_prefix		output/charge
+#
+# file number for output
+#
+file_no			1
+#
+# mdcrd  xyz file
+#
+mdcrd			md.1/nacl.md3.mdcrd.gz
+mdcrd			md.1/nacl.md4.mdcrd.gz
+mdcrd			md.1/nacl.md5.mdcrd.gz
+#
+# mdfrc  force file
+#
+mdfrc			md.1/nacl.md3.mdfrc.gz
+mdfrc			md.1/nacl.md4.mdfrc.gz
+mdfrc			md.1/nacl.md5.mdfrc.gz

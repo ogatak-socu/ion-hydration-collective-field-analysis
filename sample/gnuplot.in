@@ -1,0 +1,6 @@
+#
+y=0
+plot [*:*][-1:1] y
+replot "output/charge.data.out" using 1:2 with line
+replot "/home/ogatak/hisfserver_8/md/ball_analy4/ball.Na.tip4pfb/cal_charge_polygon_scan.1.gauss.new.02.25.50/charge.old/fwd_charge.data.out" using 1:2 with line
+pause -1
