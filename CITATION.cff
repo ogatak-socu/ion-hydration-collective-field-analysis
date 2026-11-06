@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite this repository and the associated publication."
+title: "Ion Hydration Collective Field Analysis"
+type: software
+authors:
+  - family-names: "Ogata"
+    given-names: "Koji"
+repository-code: "https://github.com/ogatak-socu/ion-hydration-collective-field-analysis"
+license: "MIT"
+keywords:
+  - molecular dynamics
+  - ion hydration
+  - hydration water
+  - collective hydration field
+  - dipole
+  - force
+  - displacement
+  - charge distribution

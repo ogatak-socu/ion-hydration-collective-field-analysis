@@ -13,10 +13,6 @@ system_size		input/system.size
 #
 #	File for spherical grid points
 #
-system_size		input/system.size
-#
-#	File for spherical grid points
-#
 spherical_grid_points_file	input/spherical_points.200.out
 #
 #  Na+ -> atom index = 1, Cl- ->  atom index = 2
