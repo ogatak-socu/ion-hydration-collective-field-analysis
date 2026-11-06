@@ -1,8 +1,0 @@
-static int case_value(int ,int ,int );
-static void cal_dipole_vector(XYZ_T *,PRMTOP *,POLY_A *,POLY_P *,XYZ_I *);
-static void cal_frc_diplacement_vector(XYZ_T *,XYZ_T *,XYZ_T *,XYZ_T *,PRMTOP *,POLY_A *,POLY_P *,XYZ_I *);
-static void get_mass_center_water(XYZ_T *,XYZ_T *,int ,int );
-static void get_dipole_water(XYZ_T *,PRMTOP *,int ,int ,XYZ_T *);
-static void store_grid_values(GRID_T *,XYZ_T *,int ,double );
-static void wt_poly_a_values(POLY_A *,int ,SW *);
-static int num_grid_t_values(GRID_T *);

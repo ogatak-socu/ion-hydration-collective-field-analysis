@@ -1,4 +1,0 @@
-TRAJ *rd_amber_traj(char *,int ,int ,int ,int *);
-TRAJ *rd_amber_traj_other(char *,int ,int ,int ,int *);
-void free_traj_area(TRAJ *,int );
-void free_traj_area_other(TRAJ *,int );
